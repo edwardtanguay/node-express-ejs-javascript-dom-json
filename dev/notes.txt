@@ -7,7 +7,7 @@
 - x express api
 	- x consume api and display
 	- x replace current message
-- .. read json
-- build into class
-- write json
+- x read json
+- .. read from json file
+- write to json file
 

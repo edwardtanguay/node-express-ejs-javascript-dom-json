@@ -1,14 +1,12 @@
-import { EmployeesManager } from './employeesManager.js';
-
 const messageElem = document.querySelector('.message');
-const employeesManager = new EmployeesManager();
 
-messageElem.innerHTML = 'loading...';
+const emulationLoadTimeInSeconds = 1000;
+messageElem.innerHTML = '<span class="loading">loading...</span>';
 
-(async () => {
-	const response = await fetch('http://localhost:3100');
-	// const data = await response.json();
-	const data = await response.text();
-	messageElem.innerHTML = data;
-
-})();
+setTimeout(() => {
+	(async () => {
+		const response = await fetch('http://localhost:3100');
+		const data = await response.json();
+		messageElem.innerHTML = data.message;
+	})();
+}, emulationLoadTimeInSeconds);

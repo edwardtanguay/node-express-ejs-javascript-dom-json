@@ -9,4 +9,9 @@ body h1 {
   font-size: 1.6rem;
   color: #e7e7ac;
 }
+
+body .loading {
+  color: yellow;
+  font-style: italic;
+}
 /*# sourceMappingURL=main.css.map */
