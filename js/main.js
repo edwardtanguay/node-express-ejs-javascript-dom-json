@@ -1,3 +1,6 @@
-const messageElem = document.querySelector('.message');
+import { EmployeesManager } from './employeesManager.js';
 
-messageElem.innerHTML = 'This is the message';
+const messageElem = document.querySelector('.message');
+const employeesManager = new EmployeesManager();
+
+messageElem.innerHTML = employeesManager.getMessage();
