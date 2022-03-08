@@ -1,0 +1,10 @@
+- x basic html
+- x basic css
+- x basic sass
+- x basic js
+- ,, basic javascript modules
+	- .. make class: EmployeesManager
+- express api
+- read json
+- write json
+
