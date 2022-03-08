@@ -2,9 +2,12 @@
 - x basic css
 - x basic sass
 - x basic js
-- ,, basic javascript modules
-	- .. make class: EmployeesManager
-- express api
-- read json
+- x basic javascript modules
+	- x make class: EmployeesManager
+- x express api
+	- x consume api and display
+	- x replace current message
+- .. read json
+- build into class
 - write json
 
